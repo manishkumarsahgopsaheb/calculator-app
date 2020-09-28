@@ -8,7 +8,6 @@
         android:layout_marginTop="100dp"
         android:id="@+id/log_details"
         android:textSize="35dp"
-        android:text="logs"
         android:textColor="@android:color/white"
         android:paddingRight="25sp"
         android:textAlignment="viewEnd"
