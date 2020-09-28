@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:gravity="end"
         android:paddingRight="25sp"
-        android:text="hii"
         android:textAlignment="viewEnd"
         android:textColor="@android:color/white"
         android:textSize="40sp" />
