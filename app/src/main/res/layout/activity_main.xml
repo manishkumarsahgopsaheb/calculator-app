@@ -1,143 +1,134 @@
 <TableLayout android:orientation="vertical"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:gravity="center"
     android:background="@android:color/holo_orange_dark"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <TextView
-        android:layout_marginTop="100dp"
-        android:id="@+id/log_details"
-        android:textSize="35dp"
-        android:text="logs"
-        android:textColor="@android:color/white"
-        android:paddingRight="25sp"
-        android:textAlignment="viewEnd"
-        android:gravity="end"
-        />
 
 
     <TextView
         android:id="@+id/text_view_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25sp"
         android:gravity="end"
         android:paddingRight="25sp"
+        android:text="hii"
         android:textAlignment="viewEnd"
         android:textColor="@android:color/white"
         android:textSize="40sp" />
 
-    <TableRow
-        android:layout_height="match_parent"
-        android:layout_width="match_parent">
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
 
-        <Button
-            android:textSize="20sp"
-            android:id="@+id/button1"
-            android:layout_weight="1"
-            android:text="1"/>
+            <Button
+                android:textSize="20sp"
+                android:id="@+id/button1"
+                android:layout_weight="1"
+                android:text="1"/>
 
-        <Button
-            android:textSize="20sp"
-            android:id="@+id/button2"
-            android:layout_weight="1"
-            android:text="2"/>
-        <Button
-            android:textSize="20sp"
-            android:id="@+id/button3"
-            android:layout_weight="1"
-            android:text="3"/>
-        <Button
-            android:textSize="20sp"
-            android:id="@+id/buttonAdd"
-            android:layout_weight="1"
-            android:text="+"/>
-    </TableRow>
+            <Button
+                android:textSize="20sp"
+                android:id="@+id/button2"
+                android:layout_weight="1"
+                android:text="2"/>
+            <Button
+                android:textSize="20sp"
+                android:id="@+id/button3"
+                android:layout_weight="1"
+                android:text="3"/>
+            <Button
+                android:textSize="20sp"
+                android:id="@+id/buttonAdd"
+                android:layout_weight="1"
+                android:text="+"/>
+        </TableRow>
 
-    <TableRow
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        >
-        <Button
-            android:textSize="20sp"
-            android:id="@+id/button4"
-            android:text="4"
-            android:layout_weight="1"/>
-        <Button
-            android:textSize="20sp"
-            android:layout_weight="1"
-            android:id="@+id/button5"
-            android:text="5"/>
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            >
+            <Button
+                android:textSize="20sp"
+                android:id="@+id/button4"
+                android:text="4"
+                android:layout_weight="1"/>
+            <Button
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/button5"
+                android:text="5"/>
 
-        <Button
-            android:textSize="20sp"
-            android:layout_weight="1"
-            android:id="@+id/button6"
-            android:text="6"/>
-        <Button
-            android:textSize="20sp"
-            android:layout_weight="1"
-            android:id="@+id/buttonSub"
-            android:text="-"/>
+            <Button
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/button6"
+                android:text="6"/>
+            <Button
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:id="@+id/buttonSub"
+                android:text="-"/>
 
-    </TableRow>
+        </TableRow>
 
-    <TableRow
-        android:layout_height="match_parent"
-        android:layout_width="match_parent">
-        <Button
-            android:textSize="20sp"
-            android:text="7"
-            android:id="@+id/button7"
-            android:layout_weight="1"/>
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <Button
+                android:textSize="20sp"
+                android:text="7"
+                android:id="@+id/button7"
+                android:layout_weight="1"/>
 
-        <Button
-            android:textSize="20sp"
-            android:text="8"
-            android:id="@+id/button8"
-            android:layout_weight="1"/>
+            <Button
+                android:textSize="20sp"
+                android:text="8"
+                android:id="@+id/button8"
+                android:layout_weight="1"/>
 
-        <Button
-            android:textSize="20sp"
-            android:text="9"
-            android:id="@+id/button9"
-            android:layout_weight="1"/>
+            <Button
+                android:textSize="20sp"
+                android:text="9"
+                android:id="@+id/button9"
+                android:layout_weight="1"/>
 
-        <Button
-            android:textSize="20sp"
-            android:text="x"
-            android:id="@+id/buttonMul"
-            android:layout_weight="1"/>
+            <Button
+                android:textSize="20sp"
+                android:text="x"
+                android:id="@+id/buttonMul"
+                android:layout_weight="1"/>
 
-    </TableRow>
+        </TableRow>
 
-    <TableRow
-        android:layout_height="match_parent"
-        android:layout_width="match_parent">
-        <Button
-            android:textSize="20sp"
-            android:text="CLEAR"
-            android:layout_weight="1"
-            android:id="@+id/buttonClear"/>
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <Button
+                android:textSize="20sp"
+                android:text="CLEAR"
+                android:layout_weight="1"
+                android:id="@+id/buttonClear"/>
 
-        <Button
-            android:textSize="20sp"
-            android:layout_weight="1"
-            android:text="0"
-            android:id="@+id/button0"/>
+            <Button
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:text="0"
+                android:id="@+id/button0"/>
 
-        <Button
-            android:textSize="20sp"
-            android:text="="
-            android:layout_weight="1"
-            android:id="@+id/buttonEqual"/>
+            <Button
+                android:textSize="20sp"
+                android:text="="
+                android:layout_weight="1"
+                android:id="@+id/buttonEqual"/>
 
-        <Button
-            android:textSize="20sp"
-            android:text="/"
-            android:layout_weight="1"
-            android:id="@+id/buttonDiv"/>
+            <Button
+                android:textSize="20sp"
+                android:text="/"
+                android:layout_weight="1"
+                android:id="@+id/buttonDiv"/>
 
-    </TableRow>
+        </TableRow>
+
 
 </TableLayout>
