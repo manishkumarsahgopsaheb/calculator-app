@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     String tmp;
     String operator;
     TextView resultTextView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

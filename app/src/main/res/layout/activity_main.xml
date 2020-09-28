@@ -1,15 +1,31 @@
 <TableLayout android:orientation="vertical"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:background="@android:color/holo_orange_dark"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-<TextView
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    android:textAlignment="viewEnd"
-    android:textSize="60sp"
-    android:id="@+id/text_view_result"
-    android:gravity="end" />
+    <TextView
+        android:layout_marginTop="100dp"
+        android:id="@+id/log_details"
+        android:textSize="35dp"
+        android:text="logs"
+        android:textColor="@android:color/white"
+        android:paddingRight="25sp"
+        android:textAlignment="viewEnd"
+        android:gravity="end"
+        />
+
+
+    <TextView
+        android:id="@+id/text_view_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:gravity="end"
+        android:paddingRight="25sp"
+        android:textAlignment="viewEnd"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
 
     <TableRow
         android:layout_height="match_parent"
